@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>二月二龙抬头，一年都有精神头 - 环球礼仪</title>
+<link rel="shortcut icon" type="image/x-icon" href="//cdn-static-prd.ailikeji.com/static/front/img/aili.ico">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="//cdn-static-prd.ailikeji.com/static/front/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdn-static-prd.ailikeji.com/static/front/css/v3app_less.bundle.86d8807d.css">
+<!--[if lt IE 9]>
+<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="//cdn-static-prd.ailikeji.com/static/front/vendor/webview/webview-bridge-pc.js"></script>
+</head>
+
+<body>
+<div id="info-detail-webview">
+<div class="aili-article" data-reactid=".23igz7qapas" data-react-checksum="-882686949">

@@ -1,0 +1,261 @@
+</div>
+</div>
+<script data-reactid=".bdid2988ei" data-react-checksum="397114786">window.aili = {
+pageData: {}
+};
+window.aili.pageData = {
+"info": {
+"_id": "58981ff49fe680cc03f4f376",
+"title": "二月二龙抬头，一年都有精神头",
+"authorId": null,
+"summary": "除了理发，二月二这天的传统习俗你了解多少？",
+"elite": true,
+"uncomment": 0,
+"thumb": "thumb.png",
+"categoryIds": ["57b19193b6b1038e22fe686c"],
+"tags": ["中国", "传统", "节日"],
+"source": 0,
+"content": "<p style=\"text-align: center;\"><strong>&#x8282;&#x65E5;&#x6863;&#x6848;</strong><br>&#xA0;</p>\n<p><strong><strong>&#x3010;&#x4E8C;&#x6708;&#x4E8C;</strong></strong><strong><strong>&#xFF0C;&#x9F99;&#x62AC;&#x5934;</strong></strong><strong><strong>&#x3011;</strong></strong></p>\n<p style=\"text-indent: 2em;\">&#x6C11;&#x95F4;&#x4F20;&#x8BF4;&#xFF0C;&#x6BCF;&#x9022;&#x519C;&#x5386;&#x4E8C;&#x6708;&#x521D;&#x4E8C;&#xFF0C;&#x662F;&#x5929;&#x4E0A;&#x4E3B;&#x7BA1;&#x4E91;&#x96E8;&#x7684;&#x9F99;&#x738B;&#x62AC;&#x5934;&#x7684;&#x65E5;&#x5B50;&#xFF1B;&#x4ECE;&#x6B64;&#x4EE5;&#x540E;&#x4E8C;&#x6708;&#x4E8C;&#x9F99;&#x62AC;&#x5934;&#xFF0C;&#x96E8;&#x6C34;&#x4F1A;&#x9010;&#x6E10;&#x589E;&#x591A;&#x8D77;&#x6765;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x8FD9;&#x5929;&#x4E5F;&#x53EB;&quot;&#x6625;&#x9F99;&#x8282;&quot;&#x3002;&#x6211;&#x56FD;&#x5317;&#x65B9;&#x5E7F;&#x6CDB;&#x7684;&#x6D41;&#x4F20;&#x7740;&quot;&#x4E8C;&#x6708;&#x4E8C;&#xFF0C;&#x9F99;&#x62AC;&#x5934;&#xFF1B;&#x5927;&#x4ED3;&#x6EE1;&#xFF0C;&#x5C0F;&#x4ED3;&#x6D41;&quot;&#x7684;&#x6C11;&#x8C1A;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/58999adb1ee7cc98ec12019e.png\">&#xA0;</p>\n<p style=\"text-indent: 2em;\">&#x5728;&#x4E8C;&#x6708;&#x4E8C;&#x8FD9;&#x5929;&#xFF0C;&#x6C11;&#x95F4;&#x4E0D;&#x5C11;&#x5730;&#x65B9;&#x90FD;&#x4F1A;&#x6709;&#x796D;&#x7940;&#x7684;&#x6D3B;&#x52A8;&#x4E3E;&#x884C;&#x3002;</p>\n<p style=\"text-indent: 2em;\">&#x5317;&#x65B9;&#x7684;&#x796D;&#x7940;&#x5BF9;&#x8C61;&#x662F;&#x9F99;&#x795E;&#x3002;&#x6BCF;&#x5E74;&#x8FD9;&#x5929;&#xFF0C;&#x4EBA;&#x4EEC;&#x90FD;&#x8981;&#x5230;&#x9F99;&#x795E;&#x5E99;&#x6216;&#x6C34;&#x7554;&#x711A;&#x9999;&#x4E0A;&#x4F9B;&#x796D;&#x7940;&#x9F99;&#x795E;&#xFF0C;&#x7948;&#x6C42;&#x9F99;&#x795E;&#x5174;&#x4E91;&#x5316;&#x96E8;&#xFF0C;&#x4FDD;&#x4F51;&#x4E00;&#x5E74;&#x4E94;&#x8C37;&#x4E30;&#x767B;&#x3002;</p>\n<p style=\"text-indent: 2em;\">&#x800C;&#x5357;&#x65B9;&#x7684;&#x796D;&#x7940;&#x5BF9;&#x8C61;&#x4E3A;&#x571F;&#x5730;&#x795E;&#x3002;&#x7531;&#x4E8E;&#x201C;&#x5730;&#x8F7D;&#x4E07;&#x7269;&#x201D;&#x3001;&#x201C;&#x805A;&#x8D22;&#x4E8E;&#x5730;&#x201D;&#xFF0C;&#x6211;&#x56FD;&#x5357;&#x65B9;&#x666E;&#x904D;&#x5949;&#x7940;&#x571F;&#x5730;&#x795E;&#xFF0C;&#x53C8;&#x79F0;&#x201C;&#x793E;&#x201D;&#x3001;&#x201C;&#x793E;&#x795E;&#x201D;&#x3001;&#x201C;&#x571F;&#x795E;&#x201D;&#x3001;&#x201C;&#x798F;&#x5FB7;&#x6B63;&#x795E;&#x201D;&#xFF0C;&#x5BA2;&#x5BB6;&#x4EBA;&#x79F0;&#x201C;&#x571F;&#x5730;&#x4F2F;&#x516C;&#x201D;&#x3002;&#x5357;&#x65B9;&#x5730;&#x533A;&#x76F8;&#x5BF9;&#x4E8E;&#x5317;&#x65B9;&#x6765;&#x8BF4;&#xFF0C;&#x5C71;&#x591A;&#x3001;&#x6C5F;&#x6CB3;&#x591A;&#x800C;&#x571F;&#x5730;&#x5C11;&#xFF0C;&#x56E0;&#x6B64;&#x5BF9;&#x571F;&#x5730;&#x7684;&#x5D07;&#x62DC;&#x4E5F;&#x5C31;&#x66F4;&#x751A;&#x4E8E;&#x5317;&#x65B9;&#x3002;&#x636E;&#x6B64;&#x5C31;&#x4EA7;&#x751F;&#x4E86;&#x5BF9;&#x571F;&#x5730;&#x7684;&#x5D07;&#x62DC;&#xFF0C;&#x656C;&#x571F;&#x4E3A;&#x795E;&#x3002;</p>\n<p style=\"text-indent: 2em;\">&#x4E8C;&#x6708;&#x521D;&#x4E8C;&#xFF0C;&#x6BCF;&#x5E74;&#x7B2C;&#x4E00;&#x4E2A;&#x796D;&#x62DC;&#x571F;&#x5730;&#x516C;&#x516C;&#x7684;&#x65E5;&#x5B50;&#xFF0C;&#x79F0;&#x4E3A;&#x201C;&#x5934;&#x7259;&#x201D;&#x3002; &#x5934;&#x7259;&#x662F;&#x95FD;&#x5357;&#x98CE;&#x4FD7;&#xFF0C;&#x798F;&#x5EFA;&#x4EBA;&#x6700;&#x91CD;&#x89C6;&#x5728;&#x6BCF;&#x5E74;&#x519C;&#x5386;&#x4E8C;&#x6708;&#x4E8C;&#x65E5;&#x505A;&#x201C;&#x5934;&#x7259;&#x201D;&#xFF0C;&#x4EE5;&#x53CA;&#x5728;&#x5341;&#x4E8C;&#x6708;&#x5341;&#x516D;&#x65E5;&#x505A;&#x201C;&#x5C3E;&#x7259;&#x201D;&#x3002;&#x5934;&#x7259;&#x8FC7;&#x5B8C;&#xFF0C;&#x610F;&#x5473;&#x7740;&#x6625;&#x8282;&#x6B63;&#x5F0F;&#x7ED3;&#x675F;&#xFF0C;&#x4E00;&#x5E74;&#x5FD9;&#x788C;&#x7684;&#x751F;&#x6D3B;&#x5C31;&#x6B63;&#x5F0F;&#x5F00;&#x59CB;&#x4E86;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/58998289744bae2e8ca74644.png\">&#xA0;</p>\n<p style=\"text-indent: 2em;\">&#x4E0D;&#x77E5;&#x9053;&#x4F60;&#x6709;&#x6CA1;&#x6709;&#x53D1;&#x73B0;&#xFF0C;&#x5F85;&#x5230;&#x6B63;&#x6708;&#x8FC7;&#x5B8C;&#xFF0C;&#x8EAB;&#x8FB9;&#x6709;&#x4E9B;&#x4EB2;&#x53CB;&#x4F1A;&#x6545;&#x610F;&#x9009;&#x62E9;&#x5728;&#x4E8C;&#x6708;&#x4E8C;&#x8FD9;&#x5929;&#x53BB;&#x7406;&#x53D1;&#x3002;&#x6C11;&#x95F4;&#x8BA4;&#x4E3A;&#x8FD9;&#x4E00;&#x5929;&#x662F;&#x86F0;&#x9F99;&#x5347;&#x5929;&#x7684;&#x65E5;&#x5B50;&#xFF0C;&#x5728;&#x8FD9;&#x5929;&#x5243;&#x5934;&#xFF0C;&#x4F1A;&#x4F7F;&#x4EBA;&#x7EA2;&#x8FD0;&#x5F53;&#x5934;&#x3001;&#x798F;&#x661F;&#x9AD8;&#x7167;&#x3002;</p>\n<p style=\"text-indent: 2em;\">&#x513F;&#x7AE5;&#x7406;&#x53D1;&#xFF0C;&#x53EB;&#x5243;&#x201C;&#x559C;&#x5934;&#x201D;&#xFF0C;&#x501F;&#x9F99;&#x62AC;&#x5934;&#x4E4B;&#x5409;&#x65F6;&#xFF0C;&#x4FDD;&#x4F51;&#x5B69;&#x7AE5;&#x5065;&#x5EB7;&#x6210;&#x957F;&#xFF0C;&#x957F;&#x5927;&#x540E;&#x51FA;&#x4EBA;&#x5934;&#x5730;&#xFF1B;&#x5927;&#x4EBA;&#x7406;&#x53D1;&#xFF0C;&#x5219;&#x5BD3;&#x610F;&#x8F9E;&#x65E7;&#x8FCE;&#x65B0;&#xFF0C;&#x5E0C;&#x671B;&#x5E26;&#x6765;&#x597D;&#x5146;&#x5934;&#x3001;&#x597D;&#x8FD0;&#x6C14;&#x3002;&#x6545;&#x6C11;&#x8C1A;&#x8BF4;&#x201C;&#x4E8C;&#x6708;&#x4E8C;&#x5243;&#x9F99;&#x5934;&#xFF0C;&#x4E00;&#x5E74;&#x90FD;&#x6709;&#x7CBE;&#x795E;&#x5934;&#x201D;&#x3002;&#x6BCF;&#x9022;&#x8FD9;&#x5929;&#xFF0C;&#x5BB6;&#x5BB6;&#x7406;&#x53D1;&#x5E97;&#x90FD;&#x987E;&#x5BA2;&#x76C8;&#x95E8;&#xFF0C;&#x751F;&#x610F;&#x5174;&#x9686;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/5899828a744bae2e8ca74645.png\"></p>\n<p class=\"cover\">&#xA0; &#xA0; &#xA0; &#x8BB2;&#x5230;&#x8282;&#x65E5;&#x4E60;&#x4FD7;&#xFF0C;&#x5F53;&#x7136;&#x4E0D;&#x80FD;&#x5C11;&#x4E86;&#x98DF;&#x4FD7;&#x8FD9;&#x4E00;&#x5757;&#x3002;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x5409;&#x7965;&#x559C;&#x5E86;&#x7684;&#x65E5;&#x5B50;&#xFF0C;&#x4E8C;&#x6708;&#x4E8C;&#x6C11;&#x95F4;&#x996E;&#x98DF;&#x591A;&#x4EE5;&#x201C;&#x9F99;&#x4E3A;&#x540D;&#x201D;&#xFF0C;&#x5982;&#x5403;&#x6C34;&#x997A;&#x53EB;&#x201C;&#x5403;&#x9F99;&#x8033;&#x201D;&#xFF0C;&#x5403;&#x7C73;&#x996D;&#x53EB;&#x201C;&#x5403;&#x7B3C;&#x5B50;&#x201D;&#xFF0C;&#x5403;&#x9984;&#x9968;&#x53EB;&#x201C;&#x5403;&#x9F99;&#x773C;&#x201D;&#xFF0C;&#x5403;&#x9762;&#x6761;&#x53EB;&#x201C;&#x6276;&#x9F99;&#x987B;&#x201D;&#xFF0C;&#x84B8;&#x997C;&#x4E5F;&#x5728;&#x9762;&#x4E0A;&#x505A;&#x51FA;&#x9F99;&#x9CDE;&#x72B6;&#x6765;&#xFF0C;&#x79F0;&#x201C;&#x9F99;&#x9CDE;&#x997C;&#x201D;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/5899828a744bae2e8ca74646.png\"></p>\n<p style=\"text-indent: 2em;\">&#x6C11;&#x8C23;&#x66F0;&#xFF1A;&#x201C;&#x4E8C;&#x6708;&#x4E8C;&#xFF0C;&#x9F99;&#x62AC;&#x5934;&#xFF0C;&#x5BB6;&#x5BB6;&#x9505;&#x91CC;&#x5623;&#x8C46;&#x8C46;&#xFF0C;&#x60CA;&#x9192;&#x9F99;&#x738B;&#x65E9;&#x5347;&#x817E;&#xFF0C;&#x884C;&#x4E91;&#x964D;&#x96E8;&#x4FDD;&#x4E30;&#x6536;&#x3002;&#x201D;</p>\n<p style=\"text-indent: 2em;\">&#x4F20;&#x8BF4;&#x4E2D;&#x6BCF;&#x5E74;&#x4E8C;&#x6708;&#x4E8C;&#x7092;&#x7389;&#x7C73;&#x7684;&#x4F20;&#x7EDF;&#xFF0C;&#x5C31;&#x662F;&#x7EAA;&#x5FF5;&#x4E49;&#x9F99;&#x4E3A;&#x89E3;&#x4EBA;&#x95F4;&#x4E7E;&#x65F1;&#x4E4B;&#x82E6;&#xFF0C;&#x751A;&#x81F3;&#x4E0D;&#x60DC;&#x5192;&#x72AF;&#x5929;&#x6761;&#x3002;&#x4F20;&#x8BF4;&#x7389;&#x9F99;&#x56E0;&#x4E0D;&#x5FCD;&#x4EBA;&#x6C11;&#x53D7;&#x4E7E;&#x65F1;&#x4E4B;&#x82E6;&#xFF0C;&#x4E49;&#x52A9;&#x4EBA;&#x6C11;&#x964D;&#x96E8;&#x800C;&#x88AB;&#x7389;&#x5E1D;&#x6240;&#x56DA;&#xFF0C;&#x5E76;&#x7ACB;&#x4E0B;&#x89C4;&#x6761;&#xFF0C;&#x53EA;&#x6709;&#x91D1;&#x8C46;&#x5F00;&#x82B1;&#x624D;&#x4F1A;&#x4E88;&#x4EE5;&#x91CA;&#x653E;&#x3002;&#x4EBA;&#x6C11;&#x56E0;&#x611F;&#x6FC0;&#x7389;&#x9F99;&#x4E49;&#x4E3E;&#x800C;&#x9F50;&#x96C6;&#x4E00;&#x8D77;&#x7092;&#x7389;&#x7C73;&#xFF0C;&#x56E0;&#x6837;&#x5B50;&#x50CF;&#x91D1;&#x8C46;&#x5F00;&#x82B1;&#x800C;&#x4EE4;&#x770B;&#x7BA1;&#x7684;&#x592A;&#x767D;&#x91D1;&#x661F;&#x770B;&#x9519;&#xFF0C;&#x5E76;&#x91CA;&#x653E;&#x4E86;&#x7389;&#x9F99;&#x3002;&#x6BCF;&#x5230;&#x4E8C;&#x6708;&#x4E8C;&#x8FD9;&#x4E00;&#x5929;&#xFF0C;&#x4EBA;&#x4EEC;&#x5C31;&#x7206;&#x7389;&#x7C73;&#x82B1;&#xFF0C;&#x4E5F;&#x6709;&#x7092;&#x8C46;&#x7684;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/5899828b744bae2e8ca74647.png\"></p>\n<p style=\"text-indent: 2em;\">&#xA0;&#x6709;&#x4E9B;&#x5730;&#x65B9;&#x8FD8;&#x6709;&#x201C;&#x653E;&#x9F99;&#x706F;&#x201D;&#x7684;&#x4E60;&#x4FD7;&#xFF0C;&#x4E0D;&#x5C11;&#x4EBA;&#x5BB6;&#x7528;&#x82A6;&#x82C7;&#x6216;&#x79EB;&#x79F8;&#x624E;&#x6210;&#x5C0F;&#x8239;&#xFF0C;&#x63D2;&#x4E0A;&#x8721;&#x70DB;&#x6216;&#x653E;&#x4E0A;&#x7528;&#x841D;&#x535C;&#x6316;&#x6210;&#x7684;&#x5C0F;&#x6CB9;&#x7897;&#xFF0C;&#x653E;&#x5230;&#x6CB3;&#x91CC;&#x6216;&#x6E7E;&#x91CC;&#x70B9;&#x71C3;&#xFF0C;&#x4E3A;&#x9F99;&#x7167;&#x8DEF;&#x3002;&#x4F46;&#x73B0;&#x5728;&#x7ECF;&#x6D4E;&#x751F;&#x6D3B;&#x90FD;&#x6709;&#x6539;&#x5584;&#xFF0C;&#x5F88;&#x591A;&#x4EBA;&#x653E;&#x7684;&#x9F99;&#x706F;&#x4E5F;&#x4E0D;&#x4EC5;&#x9650;&#x4E8E;&#x82A6;&#x82C7;&#x548C;&#x79EB;&#x79F8;&#x5236;&#x4F5C;&#x7684;&#x4E86;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/5899828c744bae2e8ca74648.png\"></p>\n<p style=\"text-indent: 2em;\">&#x5728;&#x5C71;&#x4E1C;&#x5185;&#x9646;&#x5730;&#x533A;&#xFF0C;&#x4EBA;&#x4EEC;&#x5BF9;&#x201C;&#x4E8C;&#x6708;&#x4E8C;&#x201D;&#x7684;&#x8BB2;&#x7A76;&#x66F4;&#x591A;&#x3002;&#x5176;&#x4E2D;&#x6709;&#x4E00;&#x9879;&#x91CD;&#x8981;&#x7684;&#x6C11;&#x4FD7;&#x6D3B;&#x52A8;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x56F4;&#x7CAE;&#x4ED3;&#x3002;</p>\n<p style=\"text-indent: 2em;\">&#x519C;&#x5386;&#x4E8C;&#x6708;&#x521D;&#x4E8C;&#x6E05;&#x6668;&#xFF0C;&#x6751;&#x6C11;&#x65E9;&#x65E9;&#x8D77;&#x5E8A;&#xFF0C;&#x5BB6;&#x5EAD;&#x4E3B;&#x5987;&#x4ECE;&#x81EA;&#x5BB6;&#x9505;&#x7076;&#x5E95;&#x4E0B;&#x638F;&#x4E00;&#x7B50;&#x70E7;&#x67F4;&#x79BE;&#x4F59;&#x4E0B;&#x7684;&#x8349;&#x6728;&#x7070;&#xFF0C;&#x62FF;&#x4E00;&#x628A;&#x5C0F;&#x94C1;&#x94F2;&#x5B50;&#x94F2;&#x4E9B;&#x8349;&#x6728;&#x7070;&#xFF0C;&#x4EBA;&#x8D70;&#x624B;&#x6447;&#xFF0C;&#x5728;&#x5730;&#x4E0A;&#x753B;&#x51FA;&#x4E00;&#x4E2A;&#x4E2A;&#x5706;&#x6765;&#x3002;&#x56F4;&#x4ED3;&#x7684;&#x5706;&#x5708;&#xFF0C;&#x5927;&#x5957;&#x5C0F;&#xFF0C;&#x5C11;&#x5219;&#x4E09;&#x5708;&#xFF0C;&#x591A;&#x5219;&#x4E94;&#x5708;&#xFF0C;&#x56F4;&#x5355;&#x4E0D;&#x56F4;&#x53CC;&#x3002;&#x56F4;&#x597D;&#x4ED3;&#x540E;&#xFF0C;&#x628A;&#x5BB6;&#x4E2D;&#x7684;&#x7CAE;&#x98DF;&#x8654;&#x8BDA;&#x5730;&#x653E;&#x5728;&#x4ED3;&#x7684;&#x4E2D;&#x95F4;&#xFF0C;&#x8FD8;&#x6709;&#x610F;&#x6492;&#x5728;&#x4ED3;&#x7684;&#x5916;&#x56F4;&#xFF0C;&#x8C61;&#x5F81;&#x5F53;&#x5E74;&#x7684;&#x5927;&#x4E30;&#x6536;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/5899828c744bae2e8ca74649.png\"></p>\n<p style=\"text-indent: 2em;\">&#x4E8C;&#x6708;&#x521D;&#x4E09;&#x4E3A;&#x6587;&#x660C;&#x8BDE;&#x8FB0;&#x65E5;&#xFF0C;&#x6587;&#x660C;&#x662F;&#x4E3B;&#x5BB0;&#x529F;&#x540D;&#x4E4B;&#x795E;&#xFF0C;&#x8BE5;&#x65E5;&#x6587;&#x4EBA;&#x96C5;&#x58EB;&#x656C;&#x5949;&#x6587;&#x660C;&#xFF0C;&#x6C42;&#x79D1;&#x4E3E;&#x767B;&#x7B2C;&#x3002;&#x8FC7;&#x53BB;&#x7684;&#x8BFB;&#x4E66;&#x4EBA;&#x8981;&#x884C;&#x56DB;&#x4E2A;&#x793C;&#xFF0C;&#x5373;&#x5F00;&#x7B14;&#x793C;&#x3001;&#x8FDB;&#x9636;&#x793C;&#x3001;&#x611F;&#x6069;&#x793C;&#x548C;&#x72B6;&#x5143;&#x793C;&#xFF0C;&#x5176;&#x4E2D;&#xFF0C;&#x5F00;&#x7B14;&#x793C;&#x662F;&#x4EBA;&#x751F;&#x7684;&#x7B2C;&#x4E00;&#x6B21;&#x5927;&#x793C;&#x3002;&#x5F00;&#x7B14;&#x5C31;&#x662F;&#x5F00;&#x59CB;&#x5199;&#x6587;&#x7AE0;&#xFF0C;&#x4EEA;&#x5F0F;&#x4E3B;&#x8981;&#x6709;&#x62DC;&#x5B54;&#x5B50;&#x50CF;&#x3001;&#x8BB2;&#x6388;&#x4EBA;&#x751F;&#x6700;&#x57FA;&#x672C;&#x7684;&#x9053;&#x7406;&#xFF0C;&#x8D60;&#x6587;&#x623F;&#x56DB;&#x5B9D;&#x7B49;&#x5185;&#x5BB9;&#x3002;&#x65E7;&#x4FD7;&#xFF0C;&#x513F;&#x7AE5;&#x5728;&#x4E8C;&#x6708;&#x4E8C;&#x8FD9;&#x5929;&#x884C;&#x5F00;&#x7B14;&#x793C;&#xFF0C;&#x8868;&#x660E;&#x5F00;&#x59CB;&#x6B63;&#x5F0F;&#x5B66;&#x4E60;&#x3002;&#x73B0;&#x5728;&#x5F88;&#x591A;&#x5730;&#x65B9;&#x4E5F;&#x6062;&#x590D;&#x4E86;&#x8FD9;&#x9879;&#x6D3B;&#x52A8;&#x3002;</p>\n<p class=\"cover\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"http://aili-prd.img-cn-shenzhen.aliyuncs.com/info/58981ff49fe680cc03f4f376/5899828d744bae2e8ca7464a.png\"></p>\n<p style=\"text-indent: 2em;\">&#x4E8C;&#x6708;&#x4E8C;&#x8FD9;&#x5929;&#xFF0C;&#x6C11;&#x95F4;&#x4E5F;&#x662F;&#x6709;&#x7981;&#x5FCC;&#x7684;&#x3002;&#x9F99;&#x5728;&#x4E2D;&#x56FD;&#x4EBA;&#x5FC3;&#x4E2D;&#x662F;&#x7965;&#x745E;&#x4E4B;&#x7269;&#xFF0C;&#x66F4;&#x662F;&#x548C;&#x98CE;&#x5316;&#x96E8;&#x7684;&#x4E3B;&#x5BB0;&#x3002;&#x8FD9;&#x5929;&#xFF0C;&#x5987;&#x5973;&#x4E00;&#x822C;&#x5FCC;&#x505A;&#x9488;&#x7EBF;&#xFF0C;&#x8BF4;&#x662F;&#x6015;&#x201C;&#x624E;&#x778E;&#x4E86;&#x9F99;&#x773C;&#x201D;&#xFF1B;&#x4EBA;&#x4EEC;&#x4E0D;&#x78E8;&#x9762;&#xFF0C;&#x4E0D;&#x78BE;&#x7C73;&#xFF0C;&#x4E0D;&#x884C;&#x5927;&#x8F66;&#xFF0C;&#x4E5F;&#x662F;&#x6015;&#x201C;&#x7838;&#x65AD;&#x4E86;&#x9F99;&#x8170;&#x3001;&#x9F99;&#x5C3E;&#x201D;&#xFF0C;&#x5F71;&#x54CD;&#x6765;&#x5E74;&#x3002;</p>\n<p style=\"text-indent: 2em;\">&#x5173;&#x4E8E;&#x4E8C;&#x6708;&#x4E8C;&#x7684;&#x4F20;&#x7EDF;&#x4E60;&#x4FD7;&#x6BCF;&#x4E2A;&#x5730;&#x65B9;&#x5404;&#x6709;&#x5404;&#x4E0D;&#x540C;&#xFF0C;&#x4F60;&#x4EEC;&#x5BB6;&#x7684;&#x4E60;&#x4FD7;&#x53C8;&#x662F;&#x600E;&#x6837;&#x7684;&#x5462;&#xFF1F;&#x6B22;&#x8FCE;&#x524D;&#x6765;&#x8865;&#x5145;&#xFF1A;&#xFF09;</p>\n<p style=\"text-indent: 2em;\">&#x795D;&#x613F;&#x5927;&#x5BB6;&#x4E8C;&#x96F6;&#x4E00;&#x4E03;&#xFF0C;&#x4E00;&#x5E74;&#x90FD;&#x6709;&#x7CBE;&#x795E;&#x5934;&#xFF01;</p>\n<p>&#xA0;</p>",
+"recommend": null,
+"deleted": 0,
+"publishTime": "2017-02-07T08:12:11.062Z",
+"createTime": "2017-02-06T07:12:53.423Z",
+"createAdmin": "571057e8151891620901ffd1",
+"updateTime": "2017-02-09T01:26:01.060Z",
+"updateAdmin": "571057e8151891620901ffd1",
+"refId": null,
+"refType": null,
+"refUrl": null,
+"refName": null,
+"simpleAuthor": {
+"_id": null,
+"nickname": "环球礼仪",
+"avatarPath": "//cdn-static-prd.ailikeji.com/static/front/img/v3/placeholder/aili-tx.jpg"
+},
+"publishTimeStr": "2017-02-07",
+"upNum": 12
+},
+"currentUserId": null,
+"headerData": {
+"infoCateList": [{
+"_id": "57b19147b6b1038e22fe6866",
+"value": "122",
+"label": "非礼勿食",
+"summary": "非礼勿食简介",
+"children": [{
+"_id": "57b191d2b6b1038e22fe6871",
+"value": "1.4",
+"label": "茶！饮之有礼"
+},
+{
+"_id": "57b191b9b6b1038e22fe686f",
+"value": "1.2",
+"label": "品酒有度"
+},
+{
+"_id": "57b191b2b6b1038e22fe686e",
+"value": "1.1",
+"label": "餐桌哲学"
+},
+{
+"_id": "57b191c9b6b1038e22fe6870",
+"value": "1.3",
+"label": "进击的咖啡"
+}]
+},
+{
+"_id": "57b19193b6b1038e22fe686c",
+"value": "777",
+"label": "传统礼俗",
+"summary": "传统礼俗简介7777",
+"children": [{
+"_id": "57b1929ab6b1038e22fe6885",
+"value": "7.2",
+"label": "上下千年"
+},
+{
+"_id": "57b192a1b6b1038e22fe6886",
+"value": "7.3",
+"label": "九州风俗"
+},
+{
+"_id": "57b19293b6b1038e22fe6884",
+"value": "7.1",
+"label": "人间佳节"
+},
+{
+"_id": "57b192a9b6b1038e22fe6887",
+"value": "7.4",
+"label": "修心明德"
+}]
+},
+{
+"_id": "57b1916eb6b1038e22fe6869",
+"value": "444",
+"label": "社交心法",
+"summary": "社交心法简介",
+"children": [{
+"_id": "57b1923eb6b1038e22fe687a",
+"value": "4.2",
+"label": "公嗨心得"
+},
+{
+"_id": "57b19237b6b1038e22fe6879",
+"value": "4.1",
+"label": "单身狗粮"
+},
+{
+"_id": "57b19247b6b1038e22fe687b",
+"value": "4.3",
+"label": "修身齐家"
+},
+{
+"_id": "57b1924fb6b1038e22fe687c",
+"value": "4.4",
+"label": "君子相会"
+}]
+},
+{
+"_id": "57b19152b6b1038e22fe6867",
+"value": "22",
+"label": "异域风物",
+"summary": "异域风物简介",
+"children": [{
+"_id": "57b191e6b6b1038e22fe6872",
+"value": "2.1",
+"label": "南北美"
+},
+{
+"_id": "57b191eeb6b1038e22fe6873",
+"value": "2.2",
+"label": "欧罗巴"
+},
+{
+"_id": "57b191f6b6b1038e22fe6874",
+"value": "2.3",
+"label": "亚细亚"
+},
+{
+"_id": "57b191fdb6b1038e22fe6875",
+"value": "2.4",
+"label": "澳新非"
+}]
+},
+{
+"_id": "57b1915db6b1038e22fe6868",
+"value": "33",
+"label": "仪装有礼",
+"summary": "亦庄有你简介",
+"children": [{
+"_id": "57b1922cb6b1038e22fe6878",
+"value": "3.3",
+"label": "气质如兰"
+},
+{
+"_id": "57b19207b6b1038e22fe6876",
+"value": "3.1",
+"label": "仪容如画"
+},
+{
+"_id": "57b19226b6b1038e22fe6877",
+"value": "3.22",
+"label": "衣冠楚楚"
+}]
+},
+{
+"_id": "57b19179b6b1038e22fe686a",
+"value": "55",
+"label": "游刃职场",
+"summary": "游刃职场简介",
+"children": [{
+"_id": "57b1925ab6b1038e22fe687d",
+"value": "5.1",
+"label": "面试心经"
+},
+{
+"_id": "57b19261b6b1038e22fe687e",
+"value": "5.2",
+"label": "职场法则"
+},
+{
+"_id": "57b19269b6b1038e22fe687f",
+"value": "5.3",
+"label": "商务活动"
+},
+{
+"_id": "57b19270b6b1038e22fe6880",
+"value": "5.4",
+"label": "职业着装"
+}]
+},
+{
+"_id": "57b19188b6b1038e22fe686b",
+"value": "66",
+"label": "少年仪气",
+"summary": "少年仪气简介",
+"children": [{
+"_id": "57b1927cb6b1038e22fe6881",
+"value": "6.1",
+"label": "孩提之悟"
+},
+{
+"_id": "57b19283b6b1038e22fe6882",
+"value": "6.21",
+"label": "稚子见礼"
+},
+{
+"_id": "57b1928ab6b1038e22fe6883",
+"value": "6.3",
+"label": "谦谦少年"
+}]
+},
+{
+"_id": "57b1919eb6b1038e22fe686d",
+"value": "81",
+"label": "术业有道",
+"summary": "术业有道简介",
+"children": [{
+"_id": "57b192b4b6b1038e22fe6888",
+"value": "8.1",
+"label": "民航"
+},
+{
+"_id": "57b192bcb6b1038e22fe6889",
+"value": "8.2",
+"label": "服务"
+},
+{
+"_id": "57b192c4b6b1038e22fe688a",
+"value": "8.3",
+"label": "媒体"
+},
+{
+"_id": "57b192ccb6b1038e22fe688b",
+"value": "8.4",
+"label": "金融"
+},
+{
+"_id": "57b192d5b6b1038e22fe688c",
+"value": "8.5",
+"label": "演艺"
+},
+{
+"_id": "57b192ddb6b1038e22fe688d",
+"value": "8.6",
+"label": "医疗"
+},
+{
+"_id": "57b192e6b6b1038e22fe688e",
+"value": "8.7",
+"label": "教育"
+}]
+}],
+"callBackUrl": "/front/info/58981ff49fe680cc03f4f376/app/content.html"
+}
+};
+window.aili.securityContext = null;</script>
+<script src="//cdn-static-prd.ailikeji.com/static/front/vendor/lib/jquery-1.9.1.min.js"></script>
+<script src="//cdn-static-prd.ailikeji.com/static/front/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="//cdn-static-prd.ailikeji.com/static/front/commons.bundle.7f5551e7.js"></script>
+<script src="//cdn-static-prd.ailikeji.com/static/front/js/info_detail_webview_renderer.bundle.02189d38.js"></script>
+</body>

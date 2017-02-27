@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDD6087F9B25BE002B99C9B /* libPods-ALWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E155E341C99683CC95C57E /* libPods-ALWebView.a */; };
+		18AEBE1FF6BC740A487101EE /* libPods-ALWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D53C2455B46A637225BAA48 /* libPods-ALWebViewTests.a */; };
+		69070A7C1E51AA4500009CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A7B1E51AA4500009CA9 /* main.m */; };
+		69070A7F1E51AA4500009CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A7E1E51AA4500009CA9 /* AppDelegate.m */; };
+		69070A821E51AA4500009CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A811E51AA4500009CA9 /* ViewController.m */; };
+		69070A851E51AA4500009CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69070A831E51AA4500009CA9 /* Main.storyboard */; };
+		69070A871E51AA4500009CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69070A861E51AA4500009CA9 /* Assets.xcassets */; };
+		69070A8A1E51AA4500009CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69070A881E51AA4500009CA9 /* LaunchScreen.storyboard */; };
+		69070A951E51AA4500009CA9 /* ALWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A941E51AA4500009CA9 /* ALWebViewTests.m */; };
+		69070AA01E51AA4500009CA9 /* ALWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A9F1E51AA4500009CA9 /* ALWebViewUITests.m */; };
+		691C98481E52A4A300D21F1C /* AskPublishGuard.html in Resources */ = {isa = PBXBuildFile; fileRef = 691C98471E52A4A300D21F1C /* AskPublishGuard.html */; };
+		693A72AD1E5C08A100BE9FE9 /* header.txt in Resources */ = {isa = PBXBuildFile; fileRef = 693A72AC1E5C08A100BE9FE9 /* header.txt */; };
+		693A72AF1E5C08B200BE9FE9 /* footer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 693A72AE1E5C08B200BE9FE9 /* footer.txt */; };
+		B1F5140378F79905CC9FD478 /* libPods-ALWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6216834873B5AD0A6EE6B8A0 /* libPods-ALWebViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69070A911E51AA4500009CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69070A6F1E51AA4500009CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69070A761E51AA4500009CA9;
+			remoteInfo = ALWebView;
+		};
+		69070A9C1E51AA4500009CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69070A6F1E51AA4500009CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69070A761E51AA4500009CA9;
+			remoteInfo = ALWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48424D21BFD547B1FDA5A0FC /* Pods-ALWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebViewUITests/Pods-ALWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D9955A78B4735CAE720EDE0 /* Pods-ALWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebView/Pods-ALWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		5D53C2455B46A637225BAA48 /* libPods-ALWebViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALWebViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6216834873B5AD0A6EE6B8A0 /* libPods-ALWebViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALWebViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E7EABBD4B81550DB717CE4 /* Pods-ALWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebViewTests/Pods-ALWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69070A771E51AA4500009CA9 /* ALWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69070A7B1E51AA4500009CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69070A7D1E51AA4500009CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69070A7E1E51AA4500009CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69070A801E51AA4500009CA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69070A811E51AA4500009CA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69070A841E51AA4500009CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69070A861E51AA4500009CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69070A891E51AA4500009CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69070A8B1E51AA4500009CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69070A901E51AA4500009CA9 /* ALWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69070A941E51AA4500009CA9 /* ALWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALWebViewTests.m; sourceTree = "<group>"; };
+		69070A961E51AA4500009CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69070A9B1E51AA4500009CA9 /* ALWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69070A9F1E51AA4500009CA9 /* ALWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALWebViewUITests.m; sourceTree = "<group>"; };
+		69070AA11E51AA4500009CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691C98471E52A4A300D21F1C /* AskPublishGuard.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AskPublishGuard.html; sourceTree = "<group>"; };
+		693A72AC1E5C08A100BE9FE9 /* header.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = header.txt; sourceTree = "<group>"; };
+		693A72AE1E5C08B200BE9FE9 /* footer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = footer.txt; sourceTree = "<group>"; };
+		7741CC853B44BBF6A906C474 /* Pods-ALWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebViewUITests/Pods-ALWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89B13A8E1354494D837DF45A /* Pods-ALWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebView/Pods-ALWebView.release.xcconfig"; sourceTree = "<group>"; };
+		9A9B9594CEDF0FAD81F672DB /* Pods-ALWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebViewTests/Pods-ALWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2E155E341C99683CC95C57E /* libPods-ALWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69070A741E51AA4500009CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDD6087F9B25BE002B99C9B /* libPods-ALWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69070A8D1E51AA4500009CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AEBE1FF6BC740A487101EE /* libPods-ALWebViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69070A981E51AA4500009CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F5140378F79905CC9FD478 /* libPods-ALWebViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69070A6E1E51AA4500009CA9 = {
+			isa = PBXGroup;
+			children = (
+				69070A791E51AA4500009CA9 /* ALWebView */,
+				69070A931E51AA4500009CA9 /* ALWebViewTests */,
+				69070A9E1E51AA4500009CA9 /* ALWebViewUITests */,
+				69070A781E51AA4500009CA9 /* Products */,
+				983B87E45166692684B7E8B4 /* Pods */,
+				D1301C9B15FED5C25A55BC3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69070A781E51AA4500009CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69070A771E51AA4500009CA9 /* ALWebView.app */,
+				69070A901E51AA4500009CA9 /* ALWebViewTests.xctest */,
+				69070A9B1E51AA4500009CA9 /* ALWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69070A791E51AA4500009CA9 /* ALWebView */ = {
+			isa = PBXGroup;
+			children = (
+				691C98471E52A4A300D21F1C /* AskPublishGuard.html */,
+				69070A7D1E51AA4500009CA9 /* AppDelegate.h */,
+				69070A7E1E51AA4500009CA9 /* AppDelegate.m */,
+				69070A801E51AA4500009CA9 /* ViewController.h */,
+				69070A811E51AA4500009CA9 /* ViewController.m */,
+				69070A831E51AA4500009CA9 /* Main.storyboard */,
+				69070A861E51AA4500009CA9 /* Assets.xcassets */,
+				69070A881E51AA4500009CA9 /* LaunchScreen.storyboard */,
+				69070A8B1E51AA4500009CA9 /* Info.plist */,
+				69070A7A1E51AA4500009CA9 /* Supporting Files */,
+				693A72AC1E5C08A100BE9FE9 /* header.txt */,
+				693A72AE1E5C08B200BE9FE9 /* footer.txt */,
+			);
+			path = ALWebView;
+			sourceTree = "<group>";
+		};
+		69070A7A1E51AA4500009CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69070A7B1E51AA4500009CA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69070A931E51AA4500009CA9 /* ALWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				69070A941E51AA4500009CA9 /* ALWebViewTests.m */,
+				69070A961E51AA4500009CA9 /* Info.plist */,
+			);
+			path = ALWebViewTests;
+			sourceTree = "<group>";
+		};
+		69070A9E1E51AA4500009CA9 /* ALWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69070A9F1E51AA4500009CA9 /* ALWebViewUITests.m */,
+				69070AA11E51AA4500009CA9 /* Info.plist */,
+			);
+			path = ALWebViewUITests;
+			sourceTree = "<group>";
+		};
+		983B87E45166692684B7E8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D9955A78B4735CAE720EDE0 /* Pods-ALWebView.debug.xcconfig */,
+				89B13A8E1354494D837DF45A /* Pods-ALWebView.release.xcconfig */,
+				62E7EABBD4B81550DB717CE4 /* Pods-ALWebViewTests.debug.xcconfig */,
+				9A9B9594CEDF0FAD81F672DB /* Pods-ALWebViewTests.release.xcconfig */,
+				7741CC853B44BBF6A906C474 /* Pods-ALWebViewUITests.debug.xcconfig */,
+				48424D21BFD547B1FDA5A0FC /* Pods-ALWebViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1301C9B15FED5C25A55BC3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E155E341C99683CC95C57E /* libPods-ALWebView.a */,
+				5D53C2455B46A637225BAA48 /* libPods-ALWebViewTests.a */,
+				6216834873B5AD0A6EE6B8A0 /* libPods-ALWebViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69070A761E51AA4500009CA9 /* ALWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69070AA41E51AA4500009CA9 /* Build configuration list for PBXNativeTarget "ALWebView" */;
+			buildPhases = (
+				91F6243A15A27687927D4EA3 /* [CP] Check Pods Manifest.lock */,
+				69070A731E51AA4500009CA9 /* Sources */,
+				69070A741E51AA4500009CA9 /* Frameworks */,
+				69070A751E51AA4500009CA9 /* Resources */,
+				7025DFF8FD31D7E830642025 /* [CP] Embed Pods Frameworks */,
+				77E5C0D76362B915A59FC178 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALWebView;
+			productName = ALWebView;
+			productReference = 69070A771E51AA4500009CA9 /* ALWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69070A8F1E51AA4500009CA9 /* ALWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69070AA71E51AA4500009CA9 /* Build configuration list for PBXNativeTarget "ALWebViewTests" */;
+			buildPhases = (
+				4422D063CC152EAC026AC465 /* [CP] Check Pods Manifest.lock */,
+				69070A8C1E51AA4500009CA9 /* Sources */,
+				69070A8D1E51AA4500009CA9 /* Frameworks */,
+				69070A8E1E51AA4500009CA9 /* Resources */,
+				792170D00FB5EBC171E28E7B /* [CP] Embed Pods Frameworks */,
+				71B354B02496E8ADC4E68E36 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69070A921E51AA4500009CA9 /* PBXTargetDependency */,
+			);
+			name = ALWebViewTests;
+			productName = ALWebViewTests;
+			productReference = 69070A901E51AA4500009CA9 /* ALWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69070A9A1E51AA4500009CA9 /* ALWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69070AAA1E51AA4500009CA9 /* Build configuration list for PBXNativeTarget "ALWebViewUITests" */;
+			buildPhases = (
+				9A213E2152355F4133648136 /* [CP] Check Pods Manifest.lock */,
+				69070A971E51AA4500009CA9 /* Sources */,
+				69070A981E51AA4500009CA9 /* Frameworks */,
+				69070A991E51AA4500009CA9 /* Resources */,
+				E7BF890DFE33C780E0324AC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69070A9D1E51AA4500009CA9 /* PBXTargetDependency */,
+			);
+			name = ALWebViewUITests;
+			productName = ALWebViewUITests;
+			productReference = 69070A9B1E51AA4500009CA9 /* ALWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69070A6F1E51AA4500009CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xujing;
+				TargetAttributes = {
+					69070A761E51AA4500009CA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+					69070A8F1E51AA4500009CA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69070A761E51AA4500009CA9;
+					};
+					69070A9A1E51AA4500009CA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69070A761E51AA4500009CA9;
+					};
+				};
+			};
+			buildConfigurationList = 69070A721E51AA4500009CA9 /* Build configuration list for PBXProject "ALWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69070A6E1E51AA4500009CA9;
+			productRefGroup = 69070A781E51AA4500009CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69070A761E51AA4500009CA9 /* ALWebView */,
+				69070A8F1E51AA4500009CA9 /* ALWebViewTests */,
+				69070A9A1E51AA4500009CA9 /* ALWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69070A751E51AA4500009CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691C98481E52A4A300D21F1C /* AskPublishGuard.html in Resources */,
+				693A72AF1E5C08B200BE9FE9 /* footer.txt in Resources */,
+				69070A8A1E51AA4500009CA9 /* LaunchScreen.storyboard in Resources */,
+				69070A871E51AA4500009CA9 /* Assets.xcassets in Resources */,
+				693A72AD1E5C08A100BE9FE9 /* header.txt in Resources */,
+				69070A851E51AA4500009CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69070A8E1E51AA4500009CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69070A991E51AA4500009CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4422D063CC152EAC026AC465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7025DFF8FD31D7E830642025 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWebView/Pods-ALWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B354B02496E8ADC4E68E36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWebViewTests/Pods-ALWebViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E5C0D76362B915A59FC178 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWebView/Pods-ALWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792170D00FB5EBC171E28E7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWebViewTests/Pods-ALWebViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F6243A15A27687927D4EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A213E2152355F4133648136 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BF890DFE33C780E0324AC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALWebViewUITests/Pods-ALWebViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69070A731E51AA4500009CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69070A821E51AA4500009CA9 /* ViewController.m in Sources */,
+				69070A7F1E51AA4500009CA9 /* AppDelegate.m in Sources */,
+				69070A7C1E51AA4500009CA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69070A8C1E51AA4500009CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69070A951E51AA4500009CA9 /* ALWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69070A971E51AA4500009CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69070AA01E51AA4500009CA9 /* ALWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69070A921E51AA4500009CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69070A761E51AA4500009CA9 /* ALWebView */;
+			targetProxy = 69070A911E51AA4500009CA9 /* PBXContainerItemProxy */;
+		};
+		69070A9D1E51AA4500009CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69070A761E51AA4500009CA9 /* ALWebView */;
+			targetProxy = 69070A9C1E51AA4500009CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69070A831E51AA4500009CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69070A841E51AA4500009CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69070A881E51AA4500009CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69070A891E51AA4500009CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69070AA21E51AA4500009CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69070AA31E51AA4500009CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69070AA51E51AA4500009CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9955A78B4735CAE720EDE0 /* Pods-ALWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = ALWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69070AA61E51AA4500009CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B13A8E1354494D837DF45A /* Pods-ALWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = ALWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69070AA81E51AA4500009CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E7EABBD4B81550DB717CE4 /* Pods-ALWebViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = ALWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALWebView.app/ALWebView";
+			};
+			name = Debug;
+		};
+		69070AA91E51AA4500009CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9B9594CEDF0FAD81F672DB /* Pods-ALWebViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = ALWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALWebView.app/ALWebView";
+			};
+			name = Release;
+		};
+		69070AAB1E51AA4500009CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7741CC853B44BBF6A906C474 /* Pods-ALWebViewUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = ALWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALWebView;
+			};
+			name = Debug;
+		};
+		69070AAC1E51AA4500009CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48424D21BFD547B1FDA5A0FC /* Pods-ALWebViewUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = ALWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69070A721E51AA4500009CA9 /* Build configuration list for PBXProject "ALWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69070AA21E51AA4500009CA9 /* Debug */,
+				69070AA31E51AA4500009CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69070AA41E51AA4500009CA9 /* Build configuration list for PBXNativeTarget "ALWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69070AA51E51AA4500009CA9 /* Debug */,
+				69070AA61E51AA4500009CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69070AA71E51AA4500009CA9 /* Build configuration list for PBXNativeTarget "ALWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69070AA81E51AA4500009CA9 /* Debug */,
+				69070AA91E51AA4500009CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69070AAA1E51AA4500009CA9 /* Build configuration list for PBXNativeTarget "ALWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69070AAB1E51AA4500009CA9 /* Debug */,
+				69070AAC1E51AA4500009CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69070A6F1E51AA4500009CA9 /* Project object */;
+}
