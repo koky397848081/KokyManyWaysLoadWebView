@@ -11,7 +11,7 @@
 		18AEBE1FF6BC740A487101EE /* libPods-ALWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D53C2455B46A637225BAA48 /* libPods-ALWebViewTests.a */; };
 		69070A7C1E51AA4500009CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A7B1E51AA4500009CA9 /* main.m */; };
 		69070A7F1E51AA4500009CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A7E1E51AA4500009CA9 /* AppDelegate.m */; };
-		69070A821E51AA4500009CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A811E51AA4500009CA9 /* ViewController.m */; };
+		69070A821E51AA4500009CA9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69070A811E51AA4500009CA9 /* WebViewController.m */; };
 		69070A851E51AA4500009CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69070A831E51AA4500009CA9 /* Main.storyboard */; };
 		69070A871E51AA4500009CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69070A861E51AA4500009CA9 /* Assets.xcassets */; };
 		69070A8A1E51AA4500009CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69070A881E51AA4500009CA9 /* LaunchScreen.storyboard */; };
@@ -21,6 +21,7 @@
 		693A72AD1E5C08A100BE9FE9 /* header.txt in Resources */ = {isa = PBXBuildFile; fileRef = 693A72AC1E5C08A100BE9FE9 /* header.txt */; };
 		693A72AF1E5C08B200BE9FE9 /* footer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 693A72AE1E5C08B200BE9FE9 /* footer.txt */; };
 		B1F5140378F79905CC9FD478 /* libPods-ALWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6216834873B5AD0A6EE6B8A0 /* libPods-ALWebViewUITests.a */; };
+		CC013C4E1F4FC8A4001EDB9D /* Sonic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC013C4D1F4FC8A4001EDB9D /* Sonic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +51,8 @@
 		69070A7B1E51AA4500009CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69070A7D1E51AA4500009CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69070A7E1E51AA4500009CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69070A801E51AA4500009CA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69070A811E51AA4500009CA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69070A801E51AA4500009CA9 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		69070A811E51AA4500009CA9 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		69070A841E51AA4500009CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69070A861E51AA4500009CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69070A891E51AA4500009CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		89B13A8E1354494D837DF45A /* Pods-ALWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebView/Pods-ALWebView.release.xcconfig"; sourceTree = "<group>"; };
 		9A9B9594CEDF0FAD81F672DB /* Pods-ALWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALWebViewTests/Pods-ALWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		B2E155E341C99683CC95C57E /* libPods-ALWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC013C4D1F4FC8A4001EDB9D /* Sonic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sonic.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DDD6087F9B25BE002B99C9B /* libPods-ALWebView.a in Frameworks */,
+				CC013C4E1F4FC8A4001EDB9D /* Sonic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +130,8 @@
 				691C98471E52A4A300D21F1C /* AskPublishGuard.html */,
 				69070A7D1E51AA4500009CA9 /* AppDelegate.h */,
 				69070A7E1E51AA4500009CA9 /* AppDelegate.m */,
-				69070A801E51AA4500009CA9 /* ViewController.h */,
-				69070A811E51AA4500009CA9 /* ViewController.m */,
+				69070A801E51AA4500009CA9 /* WebViewController.h */,
+				69070A811E51AA4500009CA9 /* WebViewController.m */,
 				69070A831E51AA4500009CA9 /* Main.storyboard */,
 				69070A861E51AA4500009CA9 /* Assets.xcassets */,
 				69070A881E51AA4500009CA9 /* LaunchScreen.storyboard */,
@@ -182,6 +185,7 @@
 		D1301C9B15FED5C25A55BC3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC013C4D1F4FC8A4001EDB9D /* Sonic.framework */,
 				B2E155E341C99683CC95C57E /* libPods-ALWebView.a */,
 				5D53C2455B46A637225BAA48 /* libPods-ALWebViewTests.a */,
 				6216834873B5AD0A6EE6B8A0 /* libPods-ALWebViewUITests.a */,
@@ -459,7 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69070A821E51AA4500009CA9 /* ViewController.m in Sources */,
+				69070A821E51AA4500009CA9 /* WebViewController.m in Sources */,
 				69070A7F1E51AA4500009CA9 /* AppDelegate.m in Sources */,
 				69070A7C1E51AA4500009CA9 /* main.m in Sources */,
 			);
@@ -610,6 +614,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 799WSE7R56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ALWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebView;
@@ -623,6 +631,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 799WSE7R56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ALWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AiLi.ALWebView;

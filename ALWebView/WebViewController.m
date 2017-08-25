@@ -6,32 +6,31 @@
 //  Copyright © 2017年 xujing. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WebViewController.h"
 #import <BmobSDK/Bmob.h>
 #import <WebKit/WebKit.h>
 
-@interface ViewController ()<WKNavigationDelegate,UIWebViewDelegate>
+@interface WebViewController ()<WKNavigationDelegate,UIWebViewDelegate>
 {
     NSString *_htmlContent;
-    WKWebView *_webV;
+    WKWebView *_webView;
     UIWebView *_uiWebV;
     NSDate* tmpStartData;
     __weak IBOutlet UILabel *timeLabel;
-    
 }
 
 @end
 
-@implementation ViewController
+@implementation WebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBarHidden = YES;
     
     //创建wkwebView
-    _webV = [[WKWebView alloc]initWithFrame:CGRectMake(0, 120, self.view.frame.size.width, self.view.frame.size.height - 120)];
-    _webV.navigationDelegate = self;
-    [self.view addSubview:_webV];
+    _webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, 120, self.view.frame.size.width, self.view.frame.size.height - 120)];
+    _webView.navigationDelegate = self;
+    [self.view addSubview:_webView];
     
     //通过url获取html源码并存到bmob云服务器
     //   [self creatHtmlWithUrlString:@"https://www.liyi.top/front/info/58981ff49fe680cc03f4f376/app/content.html"];
@@ -97,7 +96,7 @@
         NSString *filePath = [resourcePath stringByAppendingPathComponent:@"AskPublishGuard.html"];
         NSString *html = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
     
-        [_webV loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]]; //WKWebview读取本地
+        [_webView loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]]; //WKWebview读取本地
 }
 
 //方法3.
@@ -106,14 +105,14 @@
     tmpStartData = [NSDate date];
 
     NSString *htmlSting = [NSString stringWithFormat:@"%@%@%@",[self htmlString:@"header.txt"],_htmlContent,[self htmlString:@"footer.txt"]];
-    [_webV loadHTMLString:htmlSting baseURL:nil];//WKWebview直接读取html
+    [_webView loadHTMLString:htmlSting baseURL:nil];//WKWebview直接读取html
 }
 
 //方法4.
 //WKWebview直接读取html
 - (IBAction)loadHtmlWithHtmlString:(id)sender {
     tmpStartData = [NSDate date];
-        [_webV loadHTMLString:_htmlContent baseURL:nil];
+        [_webView loadHTMLString:_htmlContent baseURL:nil];
 }
 
 //方法5.
@@ -121,9 +120,33 @@
 - (IBAction)loadHtmlWithUrlString:(id)sender {
     tmpStartData = [NSDate date];
     NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://www.liyi.top/front/info/58981ff49fe680cc03f4f376/app/content.html"]];
-    [_webV loadRequest:request];
+    [_webView loadRequest:request];
 }
 
+//方法6.
+//vasSonic
+- (IBAction)vasSonicButtonClick:(id)sender {
+    tmpStartData = [NSDate date];
+    NSString *urlString = @"https://www.liyi.top/front/info/58981ff49fe680cc03f4f376/app/content.html";
+    [[SonicClient sharedClient] createSessionWithUrl:urlString withWebDelegate:self];
+    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+
+    if ([[SonicClient sharedClient] sessionWithWebDelegate:self]) {
+        [_webView loadRequest:sonicWebRequest(request)];
+    }else{
+        [_webView loadRequest:request];
+    }
+}
+- (IBAction)cleanCacheButtonClick:(id)sender {
+    [[SonicClient sharedClient] clearAllCache];
+    [self alertMessage:@"Clear Success!"];
+}
+
+- (void)alertMessage:(NSString *)message
+{
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"" message:message delegate:nil cancelButtonTitle:@"Done" otherButtonTitles:nil, nil];
+    [alert show];
+}
 //- (void)loadHtmlInterface{
 //    //方法1.
 //    //两种读取本地html文件方式：UIWebview / WKWebView
@@ -132,11 +155,11 @@
 //    //    NSString *filePath = [resourcePath stringByAppendingPathComponent:@"AskPublishGuard.html"];
 //    //    NSString *html = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
 //    
-//    //    [_webV loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];  //UIWebview读取本地
-//    //    [_webV loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]]; //WKWebview读取本地
+//    //    [_webView loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]];  //UIWebview读取本地
+//    //    [_webView loadHTMLString:html baseURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]]]; //WKWebview读取本地
 //    
 //    //方法2.
-//    //     [_webV loadHTMLString:_htmlContent baseURL:nil];//WKWebview直接读取html
+//    //     [_webView loadHTMLString:_htmlContent baseURL:nil];//WKWebview直接读取html
 //    
 //    //方法3.
 //    // [self loadHtmlWithUrl];//直接加载完整的url来请求
@@ -153,6 +176,10 @@
     return html;
 }
 
+- (void)dealloc
+{
+    [[SonicClient sharedClient] removeSessionWithWebDelegate:self];
+}
 #pragma mark
 #pragma mark WKNavigationDelegate
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
@@ -185,5 +212,31 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark
+#pragma mark - Sonic Session Delegate
 
+- (void)sessionWillRequest:(SonicSession *)session
+{
+//可以在请求发起前同步Cookie等信息
+}
+
+- (void)session:(SonicSession *)session requireWebViewReload:(NSURLRequest *)request
+{
+    [_webView loadRequest:request];
+}
+/*
+- (void)getDiffData:(NSDictionary *)option withCallBack:(JSValue *)jscallback
+{
+ 
+    [[SonicClient sharedClient] sonicUpdateDiffDataByWebDelegate:self.owner completion:^(NSDictionary *result) {
+ 
+        NSData *json = [NSJSONSerialization dataWithJSONObject:result options:NSJSONWritingPrettyPrinted error:nil];
+        NSString *jsonStr = [[NSString alloc]initWithData:json encoding:NSUTF8StringEncoding];
+        
+        JSValue *callback = self.owner.jscontext.globalObject;
+        [callback invokeMethod:@"getDiffDataCallback" withArguments:@[jsonStr]];
+        
+    }];
+}
+*/
 @end

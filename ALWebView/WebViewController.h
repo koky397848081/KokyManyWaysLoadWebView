@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <JavaScriptCore/JavaScriptCore.h>
 
-@interface ViewController : UIViewController
+@import Sonic;
 
+@interface WebViewController : UIViewController<SonicSessionDelegate>
 
 @end
 

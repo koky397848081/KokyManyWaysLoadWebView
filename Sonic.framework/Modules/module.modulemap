@@ -1,0 +1,6 @@
+framework module Sonic {
+  umbrella header "Sonic.h"
+
+  export *
+  module * { export * }
+}
